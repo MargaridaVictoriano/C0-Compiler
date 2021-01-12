@@ -1,0 +1,6 @@
+int main() {
+ int i;
+ int a; 
+ if(i < 0) {
+   a = 2;
+ }

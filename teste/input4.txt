@@ -1,0 +1,16 @@
+bool is_prime(int n){
+ int d;
+ d = 2;
+ if(n==1){
+ return false;
+ }
+ while(d <= n){
+  if(n%d == 0){
+   return false;
+  }
+  else{
+   d = d+1;
+  }
+ }
+ return true;
+}

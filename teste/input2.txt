@@ -1,0 +1,7 @@
+int abc(int n){
+ int v;
+ while(n > 0){
+  v = v + 1;
+ }
+ return v;
+}
